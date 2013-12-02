@@ -1,0 +1,11 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="gsettings-desktop-schemas"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-gsettings-desktop-schemas"
+VERSION=3.8.2
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="GNOME GSettings schemas for Win64 toolchain"
+DESCRIPTION="gsettings-desktop-schemas contains a collection of GSettings
+schemas for settings shared by various components of a desktop."
